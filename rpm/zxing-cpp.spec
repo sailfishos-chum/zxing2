@@ -1,3 +1,7 @@
+%if 0%{?sailfishos_version} < 50200
+ExclusiveArch: none
+%endif
+
 Name:       zxing-cpp20
 Summary:    ZXing port to C++ (2.0)
 Version:    2.0.0+git1
